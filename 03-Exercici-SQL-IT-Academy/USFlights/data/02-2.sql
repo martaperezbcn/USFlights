@@ -1,0 +1,1 @@
+SELECT Origin, AVG(DepDelay) FROM USAirlineFlights2.Flights GROUP BY Origin;

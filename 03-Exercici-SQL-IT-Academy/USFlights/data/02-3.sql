@@ -1,0 +1,1 @@
+SELECT Origin, colYear, colMonth, AVG(ArrDelay) FROM USAirlineFlights2.Flights GROUP BY Origin, colYear, colMonth;
